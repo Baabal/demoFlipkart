@@ -1,28 +1,48 @@
 import './App.css';
-import PreNavbar from './components/PreNavbar';
-import NavbarF from "./components/Navbar.js"
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
-import Slider from "./components/Slider.js"
+import Header from './components/Header';
+import Navbar from "./components/Navbar.js"
+import Banner from "./components/Banner.js"
 import data from "./data/data.json"
 import Footer from "./components/Footer.js"
-import PFooter from './components/PFooter';
-import Body from './components/body/Body';
+import Slide from './components/Slides';
+import MidSlide from './components/MidSlide';
+import MidSection from './components/Midsections';
 
 
 function App() {
 
   return (
     <>
-      <PreNavbar />
-      <NavbarF />
-      <br />
-      <Slider start={data.banner.start} />
-      <Body/>
-      <Body/>
-      <Body/>
-      <Body/>
-      <Footer />
-      {/* <PFooter /> */}
+      <Header />
+      <Navbar />
+      <Banner />
+      <MidSlide electronics={data.products.electronics} />
+      <MidSection />
+      <Slide
+        electronics={data.products.electronics}
+        title='Discounts for You'
+        timer={false}
+        multi={true}
+      />
+      <Slide
+        electronics={data.products.electronics}
+        title='Suggested Items'
+        timer={false}
+        multi={true}
+      />
+      <Slide
+        electronics={data.products.electronics}
+        title='Top Selection'
+        timer={false}
+        multi={true}
+      />
+      <Slide
+        electronics={data.products.electronics}
+        title='Recommended Items'
+        timer={false}
+        multi={true}
+      /><br/><br/>
+      <Footer/>
     </>
   );
 }

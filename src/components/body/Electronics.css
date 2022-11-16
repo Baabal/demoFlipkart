@@ -1,10 +1,10 @@
-.product-carousel {
+.electronic-carousel {
   position: relative;
   overflow: hidden;
   padding: 26px;
 }
 
-.product-container {
+.electronic-container {
   padding: 0 10px;
   display: flex;
   overflow-x: hidden;
@@ -41,6 +41,11 @@
   cursor: pointer;
 }
 
-.complete_line{
+.complete_line {
   display: inline-flex;
+}
+
+.products {
+  padding: 50px;
+  margin-left: 50px;
 }

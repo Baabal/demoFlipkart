@@ -1,202 +1,96 @@
 {
-      "banner": {
-            "start": [
-                  "https://rukminim1.flixcart.com/flap/50/50/image/ff938f15fd1feb73.jpg?q=50",
-                  "https://rukminim1.flixcart.com/fk-p-flap/844/140/image/ed6a77df878809fe.jpg?q=50",
-                  "https://rukminim1.flixcart.com/fk-p-flap/844/140/image/ed6a77df878809fe.jpg?q=50"
-            ]
-      }, 
-     
-      "footer": {
-            "support": [
-                  {
-                        "name": "Online Help",
-                        "url": "https://www.mi.com/in/service/help/#category_id=1&pagenum=1&channel=1"
-                  },
-                  {
-                        "name": "Customer Service",
-                        "url": "https://www.mi.com/in/service/online/"
-                  },
-                  {
-                        "name": "Shipping FAQ",
-                        "url": "https://www.mi.com/in/service/shipping/"
-                  },
-                  {
-                        "name": "Service Centres",
-                        "url": "https://www.mi.com/in/service/repair/"
-                  },
-                  {
-                        "name": "Warrenty",
-                        "url": "https://www.mi.com/in/service/warranty/"
-                  },
-                  {
-                        "name": "Mi Exchange",
-                        "url": "https://www.mi.com/in/miexchange/"
-                  },
-                  {
-                        "name": "Bulk Order",
-                        "url": "https://www.mi.com/in/bulkbuy/"
-                  },
-                  {
-                        "name": "User Guide",
-                        "url": "https://www.mi.com/in/service/userguide/"
-                  },
-                  {
-                        "name": "Laptop Drivers",
-                        "url": "https://www.mi.com/in/service/support/laptop-drivers.html"
-                  },
-                  {
-                        "name": "Mi Screen Protect",
-                        "url": "https://www.mi.com/in/service/miphoneprotection/#miscreenprotect"
-                  },
-                  {
-                        "name": "Mi Extended Warranty",
-                        "url": "https://www.mi.com/in/service/miextendedwarranty/"
-                  }
-            ],
-            "shopAndLearn": [
-                  {
-                        "name": "Mi 10i",
-                        "url": "https://www.mi.com/in/mi-10i/"
-                  },
-                  {
-                        "name": "Mi 10T Series",
-                        "url": "https://in.event.mi.com/in/mi-10t-series"
-                  },
-                  {
-                        "name": "Mi 11 Ultra",
-                        "url": "https://www.mi.com/in/mi-11-ultra/"
-                  },
-                  {
-                        "name": "Mi 11X",
-                        "url": "https://www.mi.com/in/mi-11x/"
-                  },
-                  {
-                        "name": "Mi 11X Pro",
-                        "url": "https://www.mi.com/in/mi-11x-pro/"
-                  },
-                  {
-                        "name": "Redmi 8",
-                        "url": "https://www.mi.com/in/redmi-8/"
-                  },
-                  {
-                        "name": "Redmi 9",
-                        "url": "https://www.mi.com/in/redmi-9/"
-                  },
-                  {
-                        "name": "Redmi 9 Prime",
-                        "url": "https://www.mi.com/in/redmi-9-prime/"
-                  },
-                  {
-                        "name": "Redmi 9i",
-                        "url": "https://www.mi.com/in/redmi-9i/"
-                  },
-                  {
-                        "name": "Redmi 9A",
-                        "url": "https://www.mi.com/in/redmi-9a/"
-                  },
-                  {
-                        "name": "Redmi Note 10",
-                        "url": "https://www.mi.com/in/redmi-note-10/"
-                  },
-                  {
-                        "name": "Redmi Note 10 Pro",
-                        "url": "https://www.mi.com/in/redmi-note-10-pro/"
-                  },
-                  {
-                        "name": "Redmi Note 10 Pro Max",
-                        "url": "https://www.mi.com/in/redmi-note-10-pro-max/"
-                  },
-                  {
-                        "name": "Redmi Note 9 Pro",
-                        "url": "https://www.mi.com/in/redmi-note-9-pro/"
-                  },
-                  {
-                        "name": "Redmi Note 9",
-                        "url": "https://www.mi.com/in/redmi-note-9/"
-                  },
-                  {
-                        "name": "Redmi Note 9 Pro Max",
-                        "url": "https://www.mi.com/in/redmi-note-9-pro-max/"
-                  },
-                  {
-                        "name": "TVs",
-                        "url": "https://www.mi.com/in/all-mi-tv"
-                  },
-                  {
-                        "name": "Laptops",
-                        "url": "https://www.mi.com/in/xiaomi-laptops"
-                  }
-            ],
-            "retailStore": [
-                  {
-                        "name": "Mi Home",
-                        "url": "https://www.mi.com/in/service/mihome/"
-                  },
-                  {
-                        "name": "Mi Authorised Stores",
-                        "url": "https://www.mi.com/in/service/authorized_stores/"
-                  }
-            ],
-            "aboutUS": [
-                  {
-                        "name": "Xioami",
-                        "url": "https://www.mi.com/in/about/"
-                  },
-                  {
-                        "name": "Mediakit",
-                        "url": "https://www.mi.com/in/mediakit/"
-                  },
-                  {
-                        "name": "Culture",
-                        "url": "https://www.mi.com/in/about/#culture"
-                  },
-                  {
-                        "name": "User Agreement",
-                        "url": "https://www.mi.com/in/about/agreement/"
-                  },
-                  {
-                        "name": "Privacy Policy",
-                        "url": "https://www.mi.com/in/about/privacy/"
-                  },
-                  {
-                        "name": "Declarations",
-                        "url": "https://www.mi.com/in/service/support/mideclare.html"
-                  },
-                  {
-                        "name": "Integrity & Compliance",
-                        "url": "https://integrity.mi.com/global"
-                  },
-                  {
-                        "name": "Smartphone Quality",
-                        "url": "https://www.mi.com/in/smartphone-quality/"
-                  },
-                  {
-                        "name": "TV Quality",
-                        "url": "https://www.mi.com/in/tv-quality/"
-                  },
-                  {
-                        "name": "Service Quality",
-                        "url": "https://www.mi.com/in/service-quality/"
-                  },
-                  {
-                        "name": "Environment",
-                        "url": "https://www.mi.com/in/service/support/ewastetakeback.html"
-                  },
-                  {
-                        "name": "Sitemap",
-                        "url": "https://www.mi.com/in/sitemap"
-                  }
-            ],
-            "contactUs": [
-                  {
-                        "name": "Email",
-                        "url": "https://in.event.mi.com/in/questionnaire/email_us"
-                  },
-                  {
-                        "name": "Careers",
-                        "url": "https://www.mi.com/in/about/#career"
-                  }
-            ]
-      }
+    "products": {
+        "electronics": [
+            {
+                "discount": "10%",
+                "tagline": "Printer ss",
+                "id": "1",
+                "name": "Table fans",
+                "url": "https://rukminim1.flixcart.com/image/150/150/kk01pjk0/fan/d/d/l/tiktik-quiet-portable-table-fan-zigma-original-imafzg7ftzuckpad.jpeg?q=70"
+            },
+            {
+                "discount": "10%",
+                "tagline": "Printer ss",
+                "id": "2",
+                "name": "Earphones",
+                "url": "https://rukminim1.flixcart.com/image/150/150/kcgk1ow0/headphone/n/u/a/235v2-fast-charging-boat-original-imaftk6us4af7bca.jpeg?q=70"
+            },
+            {
+                "discount": "10%",
+                "tagline": "Printer ss",
+                "id": "3",
+                "name": "Headphone",
+                "url": "https://rukminim1.flixcart.com/image/150/150/kapoo7k0/electric-kettle/p/6/s/pigeon-favourite-original-imafs7xhj5uwgrh4.jpeg?q=70"
+            },
+            {
+                "discount": "10%",
+                "tagline": "Printer ss",
+                "id": "4",
+                "name": "Home",
+                "url": "https://rukminim1.flixcart.com/image/416/416/kl6wx3k0/sandwich-maker/8/r/d/sandwich-01-flipkart-smartbuy-original-imagydds4zthxt8z.jpeg?q=70"
+            },
+            {
+                "discount": "10%",
+                "tagline": "Printer ss",
+                "id": "5",
+                "name": "Sandwich maker",
+                "url": "https://rukminim1.flixcart.com/image/416/416/kl6wx3k0/sandwich-maker/8/r/d/sandwich-01-flipkart-smartbuy-original-imagydds4zthxt8z.jpeg?q=70"
+            },
+            {
+                "discount": "10%",
+                "tagline": "Printer ss",
+                "id": "6",
+                "name": "Fitness",
+                "url": "https://rukminim1.flixcart.com/image/150/150/kohigsw0/resistance-tube/c/s/e/new-adjustable-single-resistance-tube-multicolor-na-ajro-deal-original-imag2xg88mhmwxz5.jpeg?q=70"
+            },
+            {
+                "discount": "10%",
+                "tagline": "Printer ss",
+                "id": "7",
+                "name": "Smartwatch",
+                "url": "https://rukminim1.flixcart.com/image/300/300/kll7bm80/smartwatch/c/1/n/43-mo-sw-sense-500-android-ios-molife-original-imagyzyycnpujyjh.jpeg?q=70"
+            },
+            {
+                "discount": "10%",
+                "tagline": "Printer ss",
+                "id": "8",
+                "name": "Trimmers",
+                "url": "https://rukminim1.flixcart.com/image/416/416/k3uhhu80/hair-dryer/n/m/t/nova-2800-w-professional-nhp-8220-original-imafmvwfhmzsxdrw.jpeg?q=70"
+            }
+        ],
+        "beauty": [
+            {
+                "name": "Printer",
+                "url": "https://rukminim1.flixcart.com/image/200/200/l4d2ljk0/bat/3/4/4/1000-hitman-full-size-double-blade-poplar-cricket-bat-advance-original-imagf9zzgxxfamce.jpeg?q=70"
+            },
+            {
+                "name": "Customer Service",
+                "url": "https://rukminim1.flixcart.com/image/200/200/kzegk280/action-figure/9/v/t/3-30155-mcfarlane-2-5-original-imagbeyyzehpyk2m.jpeg?q=70"
+            },
+            {
+                "name": "Shipping FAQ",
+                "url": "https://rukminim1.flixcart.com/image/200/200/k0plpjk0/remote-control-toy/9/g/k/4-function-remote-control-high-speed-big-racing-car-toy-funkey-original-imafkg33umd8dy93.jpeg?q=70"
+            },
+            {
+                "name": "Service Centres",
+                "url": "https://rukminim1.flixcart.com/image/200/200/jlph9jk0/cycle/h/f/k/skyper-26t-sskp26bk0001-16-hero-original-imaf8ru5xysfgtmx.jpeg?q=70"
+            },
+            {
+                "name": "Warrenty",
+                "url": "https://rukminim1.flixcart.com/image/200/200/kz5vwy80/helmet/o/4/k/-original-imagb8azfdthjhqr.jpeg?q=70"
+            },
+            {
+                "name": "Exchange",
+                "url": "https://rukminim1.flixcart.com/image/200/200/k7w8eq80/two-wheeler-tyre/v/y/s/90-90-12-106061-milaze-tl-54j-sw-ceat-original-imafqyx5tnfraaxh.jpeg?q=70"
+            },
+            {
+                "name": "Bulk Order",
+                "url": "https://rukminim1.flixcart.com/image/200/200/kzzw5u80/coffee/s/b/x/-original-imagbwf3wvhzfh5z.jpeg?q=70"
+            },
+            {
+                "name": "User Guide",
+                "url": "https://rukminim1.flixcart.com/image/200/200/k3j1z0w0/kit/d/v/e/combo-of-ab-wheel-rollerand-tummy-trimmer-exercisee1s-charuvi-original-imafdwh9nyzyujvk.jpeg?q=70"
+            }
+        ]
+    }
 }
