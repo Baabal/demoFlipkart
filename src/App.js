@@ -6,8 +6,7 @@ import Slider from "./components/Slider.js"
 import data from "./data/data.json"
 import Footer from "./components/Footer.js"
 import PFooter from './components/PFooter';
-import Body from './components/Body';
-
+import Body from './components/body/Body';
 
 
 function App() {
@@ -19,8 +18,11 @@ function App() {
       <br />
       <Slider start={data.banner.start} />
       <Body/>
+      <Body/>
+      <Body/>
+      <Body/>
       <Footer />
-      <PFooter />
+      {/* <PFooter /> */}
     </>
   );
 }

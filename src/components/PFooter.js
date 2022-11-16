@@ -1,89 +1,78 @@
-import React from 'react'
-import "../styles/Footer.css"
-import foot from "./foot.png"
+import { Grid } from '@material-ui/core';
+import React from 'react';
+import { makeStyles } from '@material-ui/core/styles';
+import {Link} from 'react-router-dom'
+import styles from '../styles/Footer.module.css'
+
+const useStyles = makeStyles((theme) => ({
+    root: {
+        flexGrow: 1,
+        backgroundColor:'#212121',
+        padding: '2%',
+        marginTop:'15%'
+    },
+}));
 
 const PFooter = () => {
-    return (        
-        <>
-            <div className="PreFooter">
-                <div>
-                    <p> <b>Hassle-free replacement</b> <br />10-day easy replacement policy</p>
+    const classes = useStyles();
+    return (
+        <Grid container className={classes.root}spacing={4} >
+            <Grid item xs={3} md={3} lg={2}  className={styles.root1} >
+            <div className={styles.heading} >About</div>
+                <Link>Contact Us</Link>
+                <Link>About Us</Link>
+                <Link>Careers</Link>
+                <Link>Flipkart Stories</Link>
+                <Link>Press</Link>
+                <Link>Flipkart Wholesale</Link>
+            </Grid>
+            <Grid item xs={3} md={3} lg={2} className={styles.root1}  spacing={2}>
+            <div className={styles.heading} >Help</div>
+                <Link>Payments</Link>
+                <Link>Shipping</Link>
+                <Link>Cancellation and returns</Link>
+                <Link>Faq</Link>
+                <Link>Report infrigment</Link>
+            </Grid>
+            <Grid item xs={3} md={3} lg={2} className={styles.root1}  spacing={2}>
+            <div className={styles.heading} >Policy</div>
+                <Link>Return Policy</Link>
+                <Link>Terms of Use</Link>
+                <Link>Security</Link>
+                <Link>Privacy</Link>
+                <Link>Sitemap</Link>
+                <Link>EPR Complaince</Link>
+            </Grid>
+            <Grid item xs={3} md={3} lg={2} className={styles.root1}  spacing={2}>
+            <div className={styles.heading} >Social</div>
+                <Link>Facebook</Link>
+                <Link>Twitter</Link>
+                <Link>Youtube</Link>
+            </Grid>
+            <Grid item xs={3} md={3} lg={2} className={styles.root1}  spacing={2}>
+            <div className={styles.heading} >Mail Us</div>
+                <div>Flipkart Internet Private Limited,
+                    Buildings Alyssa, Begonia &
+                    Clove Embassy Tech Village,
+                    Outer Ring Road, Devarabeesanahalli Village,
+                    Bengaluru, 560103,
+                    Karnataka, India
                 </div>
-                <div> <p> <b>100% secure payments</b> <br /> We support Cards, Wallets, EMI and COD</p></div>
-                <div> <p> <b>Vast service network</b> <br /> 1000 Mi service-centers across 600 cities</p></div>
-            </div>
-
-            <div className="PreFooter2">
-                <div> <p>LET'S STAY IN TOUCH</p><span>Get updates on sales specials and more</span></div>
-
-                <div>
-                    <div>
-                        <input type="email" name="email" placeholder="Enter Email Address" />
-                        <button>›</button>
-                    </div>
-                    <span>Thanks. You're on our email list for special offers.</span>
+            </Grid>
+            <Grid item xs={3} md={3} lg={2} className={styles.root1}  spacing={2}>
+                <div className={styles.heading} >Registered Office Address</div>
+                <div>Flipkart Internet Private Limited,
+                    Buildings Alyssa, Begonia &
+                    Clove Embassy Tech Village,
+                    Outer Ring Road, Devarabeesanahalli Village,
+                    Bengaluru, 560103,
+                    Karnataka, India
+                    CIN : U51109KA2012PTC066107
+                    Telephone: 1800 202 9898
                 </div>
-
-                <div>
-                    <p>FOLLOW MI</p>
-                    <span>We want to hear from you!</span>
-                </div>
-
-                <div>
-
-                </div>
-            </div>
-
-            <div className="footer">
-                <div>
-                    <p> SUPPORT</p>
-                    {footer.support.map((item, index) => (
-                        <a key={item.url} href={item.url}>{item.name}</a>
-
-                    ))}
-                </div>
-
-                <div>
-                    <p> SHOP AND LEARN</p>
-                    {footer.shopAndLearn.map((item, index) => (
-                        <a key={item.url} href={item.url}>{item.name} </a>
-
-                    ))}
-
-                </div>
-                <div>
-                    <p> RETAIL STORE</p>
-                    {footer.retailStore.map((item, index) => (
-                        <a key={item.url} href={item.url}>{item.name}</a>
-
-                    ))}
-                </div>
-
-                <div>
-                    <p>  ABOUT</p>
-                    {footer.aboutUS.map((item, index) => (
-                        <a key={item.url} href={item.url}>{item.name}</a>
-
-                    ))}
-                </div>
-
-                <div>
-                    <p> CONTACT US</p>
-                    {footer.contactUs.map((item, index) => (
-                        <a key={item.url} href={item.url}>{item.name}</a>
-
-                    ))}
-                </div>
-
-                <div>
-                    <div>Chat with our Virtual AI Bot(24/7 Live Agent Support)</div><button>CHAT NOW</button>
-                </div>
-
-
-
-            </div>
-        </>
-    )
+            </Grid>
+        </Grid>
+    );
 }
 
-export default PFooter
+export default PFooter;
